@@ -1,0 +1,6 @@
+.site-footer { margin-top: 18px; padding: 18px 0; }
+.site-footer .page { display:flex; flex-direction:column; gap:8px; align-items:center; justify-content:center; color:var(--forest); }
+.site-footer .socials { display:flex; gap:12px; align-items:center; }
+.site-footer .socials a img { width:34px; height:34px; border-radius:8px; object-fit:cover; transition: transform var(--trans); }
+.site-footer .socials a img:hover { transform: translateY(-4px) }
+.site-footer p { font-size:0.95rem; color:#4e6b63 }

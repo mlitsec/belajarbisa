@@ -1,0 +1,9 @@
+.header { width:100%; background: linear-gradient(90deg, rgba(200,230,210,0.6), rgba(201,231,220,0.45)); position:sticky; top:0; z-index:60; border-bottom:1px solid rgba(79,128,115,0.06); backdrop-filter: blur(6px); }
+.header .page { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 20px; }
+.brand { display:flex; gap:12px; align-items:center; text-decoration:none; color:var(--forest); font-weight:700; }
+.brand .logo { width:46px; height:46px; border-radius:10px; overflow:hidden; border: 2px solid rgba(255,255,255,0.6); box-shadow: 0 6px 20px rgba(79,128,115,0.06); }
+.navlinks { display:flex; gap:14px; align-items:center; }
+.navlinks a { color:var(--forest); text-decoration:none; padding:8px 10px; border-radius:8px; font-weight:600; transition: background var(--trans), transform var(--trans); }
+.navlinks a:hover{background:rgba(158,210,190,0.35);transform:translateY(-2px)}
+.navlinks a.active{background:linear-gradient(180deg,var(--mint-med),var(--mint-dark)); color:#fff}
+@media (max-width:720px){ .navlinks{display:none} .header .page{padding:10px 12px} }

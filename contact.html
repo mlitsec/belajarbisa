@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harly — Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+  <header class="header">
+    <div class="page">
+      <a href="index.html" class="brand">
+        <div class="logo"><img src="assets/images/nogambar.png" alt="logo" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div>Harly</div>
+      </a>
+      <nav class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    <section class="card contact-panel">
+      <h2 class="h2">Contact Me</h2>
+      <p class="text-muted">If you'd like to collaborate or ask questions — drop me a message.</p>
+      <form class="contact-form" action="#" method="POST" novalidate>
+        <label for="name">Name</label>
+        <input id="name" class="input" type="text" name="name" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input id="email" class="input" type="email" name="email" placeholder="you@example.com" required>
+        <label for="message">Message</label>
+        <textarea id="message" class="input" name="message" rows="6" placeholder="Write your message..." required></textarea>
+        <div style="display:flex;justify-content:flex-end;margin-top:8px">
+          <button type="submit" class="btn-submit">Send Message</button>
+        </div>
+      </form>
+      <p class="contact-info" style="margin-top:12px">Or email me directly at <a href="mailto:harlyanoor13@gmail.com">harlyanoor13@gmail.com</a></p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="page">
+      <div class="socials center">
+        <a href="https://www.instagram.com/harlyaaa/" target="_blank"><img src="assets/images/instagram.png" alt="ig"></a>
+        <a href="https://www.linkedin.com/in/harlyanoor-5b334817a/" target="_blank"><img src="assets/images/linked.png" alt="li"></a>
+        <a href="https://github.com/mlitsec" target="_blank"><img src="assets/images/github.png" alt="gh"></a>
+      </div>
+      <p style="margin-top:8px">© 2025 Harly</p>
+    </div>
+  </footer>
+</body>
+</html>

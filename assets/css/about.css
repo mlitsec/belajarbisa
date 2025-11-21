@@ -1,0 +1,8 @@
+.about-hero { display:flex; flex-direction:column; gap:18px; align-items:center; text-align:center; }
+.about-hero .photo { width:220px; height:220px; border-radius:12px; overflow:hidden; box-shadow:0 10px 30px rgba(79,128,115,0.06); }
+.about-hero .bio { max-width:760px; color:#4f6b66; font-size:0.98rem }
+.detail-grid { display:grid; grid-template-columns: repeat(2, 1fr); gap:16px; margin-top:14px; }
+.detail-card { background:var(--mint-med); color:var(--forest); padding:12px; border-radius:10px; box-shadow:0 6px 18px rgba(158,210,190,0.05); }
+.skills-list { display:flex; gap:10px; flex-wrap:wrap; margin-top:10px }
+.skill-badge { background:#fff; padding:8px 10px; border-radius:8px; color:var(--forest); font-weight:600 }
+@media (max-width:880px){ .detail-grid{grid-template-columns:1fr} .about-hero{text-align:center} }
